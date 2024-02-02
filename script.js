@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   yesButton.addEventListener("click", function () {
-    buttonsDiv.removeChild(yesButton);
+    buttonsDiv.remove();
 
     title.textContent = "YAYYYYY PRINCESS!!!!";
     subTitle.innerHTML =
