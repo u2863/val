@@ -60,10 +60,18 @@ html {
   width: 67%;
 }
 
+#title {
+  min-height: 112px;
+}
+
 .content {
   z-index: 2;
   font-size: 24px;
   width: 67%;
+}
+
+#sub-title {
+  min-height: 80px;
 }
 
 .buttons {
@@ -94,4 +102,19 @@ button:hover {
 button:active {
   background-color: #ff73a2;
   transform: scale(0.98);
+}
+
+.images > img {
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+
+.respond:hover {
+  transform: scale(1.05);
+}
+
+.respond:active {
+  transform: scale(1);
 }
